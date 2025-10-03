@@ -1,0 +1,8 @@
+body, #root {
+  margin: 0;
+  padding: 0;
+  background: #242424;  /* Use your dashboard background color */
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
