@@ -92,28 +92,10 @@ python compliance_checker.py
 
 View output in /reports/validated_output.csv and /logs/compliance_report.txt.
 
-📸 Example Output (Sample)
-
-Transaction ID-Error Type-Validation Rule-Status
-
-TXN_0012-Missing SKU Code-Rule #1: Mandatory ID-Flagged
-
-TXN_0147-Price Mismatch-Rule #3:-Reconcile SQL-Flagged
-
-TXN_0201	-	-	✅ Passed
-
-🧑‍💻 Author
+**AUTHOR**
 
 G D Harsha Vardhan
 B.Tech (ECE – Data Science) | SRM Institute of Science and Technology
-📫 LinkedIn
- · GitHub
 
 **Keywords:**
 ETL · Data Validation · Workflow Automation · SQL · Python · Compliance Reporting · AI-Driven Decision Support
-
-Automation mindset: Optimizing manual workflows using technology — directly aligned with IBM’s “AI-first” philosophy.
-
-Scalable architecture: The modular validation engine mirrors enterprise ETL systems.
-
-Problem-solving depth: Shows end-to-end understanding of a real data-engineering challenge.
