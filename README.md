@@ -4,14 +4,14 @@
 
 **Domain:** Data Quality & Compliance · ETL Optimization · Business Intelligence
 
-**OVERVIEW**
+## **OVERVIEW**
 
 The E-Commerce Compliance Checker automates the validation of large transactional datasets to ensure data completeness, consistency, and accuracy across multiple e-commerce systems.
 It simulates an ETL (Extract–Transform–Load) pipeline that enforces business compliance rules — reducing manual audit effort and minimizing reporting errors.
 
 This project reflects a real-world automation scenario where rule-based pipelines replace repetitive data review workflows — a foundational step in AI-driven data governance systems.
 
-**PROBLEM STATEMENT:**
+## **PROBLEM STATEMENT:**
 
 E-commerce data pipelines often involve multiple sources (orders, inventory, payments, returns).
 Manual validation and reconciliation of this data can take hours, leading to:
@@ -22,7 +22,7 @@ Slower compliance audits
 
 The goal was to design a Python + SQL-driven automation pipeline that performs these validations automatically and generates a clean, validated dataset for reporting.
 
-**KEY FEATURES:**
+## **KEY FEATURES:**
 
 **Rule-Based Data Validation:**
 Automatically flags non-compliant or incomplete entries using configurable rule sets.
@@ -39,24 +39,24 @@ Maps inconsistent data schemas between systems and ensures uniformity in reporti
 **Scalable & Extensible:**
 New validation rules and sources can be added easily — future-ready for AI/ML extensions.
 
-**ARCHITECTURE OVERVIEW:**
+## **ARCHITECTURE OVERVIEW:**
 
 <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/c06d7bef-2aa6-4173-b805-6b5a86bf6f8e" />
 
 
-**WORKFLOW SUMMARY:**
+## **WORKFLOW SUMMARY:**
 
-**Data Extraction:** Load raw CSV/JSON data into the Python environment.
+### **Data Extraction:** Load raw CSV/JSON data into the Python environment.
 
-**Transformation:** Apply rule-based data validation and cleaning logic.
+### **Transformation:** Apply rule-based data validation and cleaning logic.
 
-**Loading:** Store validated records into an SQL database.
+### **Loading:** Store validated records into an SQL database.
 
-**Reconciliation:** Compare data across sources to detect mismatches.
+### **Reconciliation:** Compare data across sources to detect mismatches.
 
-**Reporting:** Generate compliance summary logs and visual output.
+### **Reporting:** Generate compliance summary logs and visual output.
 
-📈 Impact
+## 📈 Impact
 
 Reduced manual review effort by 30% through automation.
 
@@ -64,7 +64,7 @@ Increased data accuracy and consistency in reporting pipelines.
 
 Created a modular workflow adaptable for future AI-assisted validation.
 
-💡 Future Scope
+## 💡 Future Scope
 
 Integrate GPT-4 or Llama-3 API for semantic validation of text-based compliance records.
 
@@ -72,7 +72,7 @@ Add a Streamlit dashboard for live monitoring and visualization.
 
 Extend SQL backend with PostgreSQL triggers for real-time alerts.
 
-🧰 How to Run
+## 🧰 How to Run
 
 Clone the repository
 
@@ -92,10 +92,10 @@ python compliance_checker.py
 
 View output in /reports/validated_output.csv and /logs/compliance_report.txt.
 
-**AUTHOR**
+## **AUTHOR**
 
 G D Harsha Vardhan
 B.Tech (ECE – Data Science) | SRM Institute of Science and Technology
 
-**Keywords:**
+## **Keywords:**
 ETL · Data Validation · Workflow Automation · SQL · Python · Compliance Reporting · AI-Driven Decision Support
